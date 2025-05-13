@@ -1,9 +1,10 @@
-train.py---模型训练
-unetsig.py ----网络搭建
-utilsarguvsig.py----数据处理
-loss_functions.py----多个损失函数的函数包
+This is a tensorflow version:
+  train.py---模型训练
+  unetsig.py ----网络搭建
+  utilsarguvsig.py----数据处理
+  loss_functions.py----多个损失函数的函数包
 
-使用python train.py进行训练
+  run python train.py to train the model
 
-apply.py----进行分块的常规模型预测
+  run apply.py to apply the trained model to field seismic data
 
