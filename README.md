@@ -3,8 +3,8 @@
 
 **Here we provide both Tensorflow and Pytorch versions of FaultSegPlus (improved from [faultSeg](https://github.com/xinwucwp/faultSeg) by Wu et al. (2019)) for 3D fault segmentation**
 
-As described in **FaultSeg3D plus: A comprehensive study on evaluating and improving CNN-based seismic fault segmentation
-** by [You Li](http://cig.ustc.edu.cn/you/list.htm)<sup>1</sup>, 
+As described in **FaultSeg3D plus: A comprehensive study on evaluating and improving CNN-based seismic fault segmentation** 
+by [You Li](http://cig.ustc.edu.cn/you/list.htm)<sup>1</sup>, 
 [Xinming Wu](http://cig.ustc.edu.cn/xinming/list.htm)<sup>1</sup>, 
 Zhengyu Zhu,
 Jicai Ding, and 
@@ -13,16 +13,14 @@ Qingzhen Wang
 
 ## Getting Started with Example Model for fault prediction
 
-If you would just like to try out a pretrained example model, then you can download the [pretrained model](https://drive.google.com/drive/folders/1q8sAoLJgbhYHRubzyqMi9KkTeZWXWtNd) and use the 'prediction.ipynb' script to run a demo.
+If you would just like to try out a pretrained example model, then you can download the [pretrained model](https://drive.google.com/file/d/1MjcWmRG6uIZoH4E1_bfa9gXvABwp83kN/view?usp=drive_link) and use the 'apply.py' script to run a demo.
 
-On 05/07/2020, new models are uploaded for testing. Please run predNew.ipynb to test the new models.
 
 ### Dataset
 
-**To train our CNN network, we automatically created 200 pairs of synthetic seismic and corresponding fault volumes, which were shown 
-to be sufficient to train a good fault segmentation network.** 
+**To train our CNN network, we automatically created 400 pairs of synthetic seismic and corresponding fault volumes, which were more realistic and diverse than the [200 pairs](https://drive.google.com/open?id=1I-kBAfc_ag68xQsYgAHbqWYdddk4XHHd) published in 2019.** 
 
-**The training and validation datasets can be downloaded [here](https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8)**
+**The training and validation datasets will be uploaded soon**
 
 ### Training
 
