@@ -18,13 +18,13 @@ If you would just like to try out a pretrained example model, then you can downl
 
 ### Dataset
 
-**To train our CNN network, we automatically created 400 pairs of synthetic seismic and corresponding fault volumes, which were more realistic and diverse than the [200 pairs](https://drive.google.com/open?id=1I-kBAfc_ag68xQsYgAHbqWYdddk4XHHd) published by Wu et al. (2019).** 
+**To train our CNN network, we automatically created 400 pairs of synthetic seismic and corresponding fault volumes, which were shown to be more realistic and diverse than the [200 pairs](https://drive.google.com/open?id=1I-kBAfc_ag68xQsYgAHbqWYdddk4XHHd) published by Wu et al. (2019).** 
 
 **The training and validation datasets will be uploaded soon**
 
 ### Training
 
-Run train.py to start training a new faultSeg model by using the 200 synthetic datasets
+Run train.py to start training a new faultSeg model by using the 400 synthetic datasets
 
 ## Publications
 
